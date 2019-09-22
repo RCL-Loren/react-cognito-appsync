@@ -1,10 +1,22 @@
 import React from 'react';
-import Navbar from "react-bootstrap/Navbar";
-import Nav from 'react-bootstrap/Nav'
+import ReactDOM from 'react-dom'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import App from './App'
+import Home from './Home'
+import Signin from './Signin'
 
-import './App.css';
 
-function App() {
+
+
+
+
+
+//import './App.css';
+
+
+//import Navbar from "react-bootstrap/Navbar";
+//import Nav from 'react-bootstrap/Nav'
+/* function BakApp() {
   return (
     <div className="App">
     	<Navbar bg="light">
@@ -18,6 +30,6 @@ function App() {
       <p>Not Logged In</p>
     </div>
   );
-}
+} */
 
 export default App;
